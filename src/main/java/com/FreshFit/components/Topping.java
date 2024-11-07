@@ -1,4 +1,7 @@
 package com.FreshFit.components;
 
-public class Topping {
+import com.FreshFit.utilities.IPrice;
+
+public abstract class Topping implements IPrice {
 }
+//string name, double price

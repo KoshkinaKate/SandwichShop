@@ -1,4 +1,5 @@
 package com.FreshFit.components;
 
-public class Meat {
+public class Meat extends PremiumTopping{
 }
+//inherits

@@ -1,4 +1,8 @@
 package com.FreshFit.items;
 
-public class Chips {
+import com.FreshFit.utilities.IPrice;
+
+public class Chips implements IPrice {
 }
+//Represents a chips item, implements iPrice
+//String type
