@@ -7,8 +7,6 @@ This Java console application is designed to streamline the ordering process for
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
 - As a user, I want to have an option to place an order so that I can start choosing items to purchase.
 - As a user, I want to be able to pick between items like a sandwich, drink, and chips so that I can customize my order with the available options.
 - As a user, I want to have the ability to customize my sandwich by selecting bread type, adding meat, cheese, and other toppings, and choosing sauces so that I can create a sandwich to my taste.
