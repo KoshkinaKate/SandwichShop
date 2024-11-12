@@ -6,7 +6,7 @@ import com.FreshFit.utilities.IPrice;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// this class calculates total Price for the Sandwich
 public class Sandwich implements IPrice {
     private String size;
     private boolean toasted;
@@ -53,6 +53,6 @@ public class Sandwich implements IPrice {
 
     @Override
     public double getPrice() {
-        double totalPrice =
+        double totalPrice = 0;
     }
 }

@@ -30,7 +30,7 @@ public class Drink implements IPrice {
             case "Large":
                 return 3.00;
             default:
-                return 2.00; //picking a Small size.
+                return 2.00; // Default to small size
         }
     }
 }
