@@ -37,6 +37,19 @@ public class Sandwich implements IPrice {
         toppings.add(topping);
     }
 
+    private double getSandwichPriceBySize() {
+        switch (size) {
+            case "4\"":
+                return 5.50;
+            case "8\"":
+                return 7.00;
+            case "12\"":
+                return 8.50;
+            default:
+                return 5.50;  // Default to 4"
+        }
+    }
+
 
     @Override
     public double getPrice() {
