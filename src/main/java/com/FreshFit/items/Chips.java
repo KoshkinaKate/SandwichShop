@@ -4,7 +4,6 @@ import com.FreshFit.utilities.IPrice;
 
 public class Chips implements IPrice {
     private String type; //BBQ, Spicy etc
-    private final double price = 1.50;
 
     public Chips(String type) {
         this.type = type;
@@ -16,6 +15,6 @@ public class Chips implements IPrice {
 
     @Override
     public double getPrice() {
-        return price;
+        return 1.5; //always the same price
     }
 }
