@@ -7,6 +7,15 @@ public class Cheese extends PremiumTopping{
 
     @Override
     public double getPrice(String size) {
-        return 0;
+        switch (size) {
+            case "4\"":
+                return getBasePrice();
+            case "8\"":
+                return getBasePrice() * 2;
+            case "12\"":
+                return getBasePrice() * 3;
+            default:
+                return getBasePrice(); // Default to 4"
+        }
     }
 }

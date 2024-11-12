@@ -17,6 +17,4 @@ public abstract class Topping {
         return basePrice;
     }
 
-//    public abstract double getPrice(String size); //subclasses will get this class helpful with sizes to determine price (must have)
-
 }
