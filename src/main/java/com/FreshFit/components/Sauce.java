@@ -5,10 +5,10 @@ public class Sauce extends Topping{
         super(name, 0.0);
     }
 
-    @Override
-    public double getPrice(String size) {
-        return 0.0; //free
-    }
+//    @Override
+//    public double getPrice(String size) {
+//        return 0.0; //free
+//    }
 }
 //inherits name
 //override getPrice return 0.0

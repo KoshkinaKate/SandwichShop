@@ -52,10 +52,6 @@ public class Sandwich implements IPrice {
 
     @Override
     public double getPrice() {
-        double totalPrice = getSandwichPriceBySize();
-        for (Topping topping : toppings) {
-            totalPrice += topping.getPrice(size);
-        }
-        return totalPrice;
+        return 0;
     }
 }

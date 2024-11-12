@@ -5,8 +5,8 @@ public class RegularTopping extends Topping{
         super(name, 0.0);
     }
 
-    @Override
-    public double getPrice(String size) { // abstract method from Topping, must be implemented
-        return 0.0; //free toppings
-    }
+//    @Override
+//    public double getPrice(String size) { // abstract method from Topping, must be implemented
+//        return 0.0; //free toppings
+//    }
 }
