@@ -6,8 +6,7 @@ public class Meat extends PremiumTopping{
     }
 
     @Override
-    public double getPrice() {
+    public double getPrice() { //from IPrice
         return 0;
     }
 }
-//inherits

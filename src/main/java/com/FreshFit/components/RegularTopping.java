@@ -6,15 +6,12 @@ public class RegularTopping extends Topping{
     }
 
     @Override
-    public double getPrice(String size) {
+    public double getPrice(String size) { // abstract method from Topping, must be implemented
         return 0;
     }
 
     @Override
-    public double getPrice() {
+    public double getPrice() { // from interface , allow pricing without parameters
         return 0;
     }
 }
-//inherits name
-//override getPrice return 0.0
-//inherits getName
