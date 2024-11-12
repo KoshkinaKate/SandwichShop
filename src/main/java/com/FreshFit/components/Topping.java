@@ -4,7 +4,7 @@ import com.FreshFit.utilities.IPrice;
 
 public abstract class Topping implements IPrice {
     private String name;
-    private double basePrice;
+    private double basePrice; //will be set by subclasses
 
     public Topping(String name, double basePrice) {
         this.name = name;
@@ -19,6 +19,6 @@ public abstract class Topping implements IPrice {
         return basePrice;
     }
 
-    public abstract double getPrice(String size); //children will get this class
+    public abstract double getPrice(String size); //subclasses will get this class
 
 }
