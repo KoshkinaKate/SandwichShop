@@ -22,8 +22,9 @@ public abstract class Topping implements IPrice {
     @Override
     public double getPrice() {
         return getPrice("4\"");  // Defaults to smallest size (subclasses does not need to implement getPrice())
+        //this method calls getPrice below, so 4" is default.
     }
 
-    public abstract double getPrice(String size); //subclasses will get this class helpful with sizes to determine price
+    public abstract double getPrice(String size); //subclasses will get this class helpful with sizes to determine price (must have)
 
 }

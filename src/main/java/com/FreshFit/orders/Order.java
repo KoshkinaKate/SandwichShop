@@ -37,6 +37,9 @@ public class Order {
         return total;
     }
 
+    public void checkOut(){};
+
+
     
 }
 // Keeps track of items in the order and calculates the total

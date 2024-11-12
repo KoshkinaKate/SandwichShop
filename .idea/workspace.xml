@@ -7,7 +7,7 @@
     <list default="true" id="bccb15f2-6af4-4214-887d-364344fd2481" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Meat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
