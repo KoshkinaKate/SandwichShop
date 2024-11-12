@@ -40,6 +40,6 @@ public class Sandwich implements IPrice {
 
     @Override
     public double getPrice() {
-        double totalPrice = 
+        double totalPrice =
     }
 }
