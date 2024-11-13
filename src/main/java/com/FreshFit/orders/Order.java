@@ -1,5 +1,5 @@
 package com.FreshFit.orders;
-
+//manages customer's order calc.price for sandwiches, drinks, chips
 import com.FreshFit.components.Topping;
 import com.FreshFit.items.Chips;
 import com.FreshFit.items.Drink;
@@ -14,6 +14,7 @@ public class Order {
     private List<Drink> drinks = new ArrayList<>();
     private List<Chips> chips = new ArrayList<>();
 
+    //adding objects to the list
     public void addSandwich (Sandwich sandwich){
         sandwiches.add(sandwich);
     }
@@ -25,6 +26,8 @@ public class Order {
     public void addChips(Chips chip){
         chips.add(chip);
     }
+
+    //total price for the order
     public double getTotalPrice (){
         double total =0;
         for (Sandwich sandwich : sandwiches) {
@@ -38,6 +41,7 @@ public class Order {
         }
         return total;
     }
+
     // Generates a summary of the entire order
     public String generateOrderSummary() {
         StringBuilder summary = new StringBuilder();
@@ -76,17 +80,9 @@ public class Order {
         summary.append("Total Price: $").append(getTotalPrice()).append("\n");
         return summary.toString();
     }
-
+    // finalizes the order by generating a receipt file through the FileManager
     public void checkOut(){
         String orderDetails = generateOrderSummary();
         FileManager.generateReceipt(orderDetails);
     };
-
-
-    
 }
-// Keeps track of items in the order and calculates the total
-//List<Sandwich> same with drink, chips.
-//getTotalPrice(): double
-//CheckOut->calls fileManager
-//addSandwich, addDrink, addChips void.
