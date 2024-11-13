@@ -17,4 +17,9 @@ public class Chips implements IPrice {
     public double getPrice() {
         return 1.5; //always the same price
     }
+    @Override
+    public String toString() {
+        return type + " chips";
+    }
+
 }

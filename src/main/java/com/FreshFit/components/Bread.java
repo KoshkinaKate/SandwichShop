@@ -11,4 +11,10 @@ public class Bread {
         return type;
     }
 
+    @Override
+    public String toString() {
+        return "Bread{" +
+                "type='" + type + '\'' +
+                '}';
+    }
 }

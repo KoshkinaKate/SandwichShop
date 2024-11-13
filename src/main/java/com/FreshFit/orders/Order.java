@@ -1,5 +1,6 @@
 package com.FreshFit.orders;
 
+import com.FreshFit.components.Topping;
 import com.FreshFit.items.Chips;
 import com.FreshFit.items.Drink;
 import com.FreshFit.items.Sandwich;
@@ -42,25 +43,51 @@ public class Order {
         StringBuilder summary = new StringBuilder();
         summary.append("Order Summary:\n");
 
-        summary.append("Sandwiches:\n");
+        // List each sandwich with details
+        int sandwichNumber = 1;
         for (Sandwich sandwich : sandwiches) {
-            summary.append("- ").append(sandwich).append(" | Price: $").append(sandwich.getPrice()).append("\n");
+            summary.append("Sandwich ").append(sandwichNumber++).append(":\n");
+            summary.append("  Bread: ").append(sandwich.getBread().getType()).append("\n");
+            summary.append("  Size: ").append(sandwich.getSize()).append("\n");
+            summary.append("  Toasted: ").append(sandwich.isToasted() ? "Yes" : "No").append("\n");
+            summary.append("  Toppings:\n");
+
+            // Premium toppings (like cheese, meat)
+            for (Topping topping : sandwich.getPremiumToppings()) {
+                summary.append("    - ").append(topping.getName()).append("\n");
+            }
+
+            // Regular/free toppings (like sauces, veggies)
+            for (Topping topping : sandwich.getRegularToppings()) {
+                summary.append("    - ").append(topping.getName()).append("\n");
+            }
+
+            summary.append("  Price: $").append(sandwich.getPrice()).append("\n\n");
         }
 
-        summary.append("Drinks:\n");
+        // List each drink with details
+        int drinkNumber = 1;
         for (Drink drink : drinks) {
-            summary.append("- ").append(drink).append(" | Price: $").append(drink.getPrice()).append("\n");
+            summary.append("Drink ").append(drinkNumber++).append(":\n");
+            summary.append("  Size: ").append(drink.getSize()).append("\n");
+            summary.append("  Flavor: ").append(drink.getFlavor()).append("\n");
+            summary.append("  Price: $").append(drink.getPrice()).append("\n\n");
         }
 
-        summary.append("Chips:\n");
+        // List each chips with details
+        int chipsNumber = 1;
         for (Chips chip : chips) {
-            summary.append("- ").append(chip).append(" | Price: $").append(chip.getPrice()).append("\n");
+            summary.append("Chips ").append(chipsNumber++).append(":\n");
+            summary.append("  Type: ").append(chip.getType()).append("\n");
+            summary.append("  Price: $").append(chip.getPrice()).append("\n\n");
         }
 
+        // Total price
         summary.append("Total Price: $").append(getTotalPrice()).append("\n");
+        summary.append("Confirm Order? (yes/no): ");
+
         return summary.toString();
     }
-
     public void checkOut(){
         String orderDetails = generateOrderSummary();
         FileManager.generateReceipt(orderDetails);

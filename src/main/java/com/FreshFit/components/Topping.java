@@ -19,4 +19,11 @@ public abstract class Topping {
 
     public abstract double getPrice(String size);
 
+    @Override
+    public String toString() {
+        return "Topping{" +
+                "name='" + name + '\'' +
+                ", basePrice=" + basePrice +
+                '}';
+    }
 }

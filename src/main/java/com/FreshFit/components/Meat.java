@@ -2,7 +2,7 @@ package com.FreshFit.components;
 
 public class Meat extends PremiumTopping {
     public Meat(String name, double basePrice) {
-        super(name, 1); //$1 for 4"
+        super(name, basePrice);
     }
 
     @Override
@@ -18,4 +18,5 @@ public class Meat extends PremiumTopping {
                 return getBasePrice(); // Default to 4"
         }
     }
+
 }

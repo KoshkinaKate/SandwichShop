@@ -2,8 +2,8 @@ package com.FreshFit.components;
 
 public class Cheese extends PremiumTopping {
 
-    public Cheese(String name) {
-        super(name, 0.75);
+    public Cheese(String name, double basePrice) {
+        super(name, basePrice);
     }
 
     @Override
