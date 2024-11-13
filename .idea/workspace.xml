@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bccb15f2-6af4-4214-887d-364344fd2481" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/RegularTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/RegularTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Sauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Sauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/HomeScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/OrderScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/OrderScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/SandwichMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/SandwichMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/utilities/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/utilities/FileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

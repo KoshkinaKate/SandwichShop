@@ -24,25 +24,25 @@ public class OrderScreen {
             System.out.print("Choose an option: ");
             int option = scanner.nextInt();
 
-            switch (option) {
-                case 1:
-                    new SandwichMenu(order).displaySanswichMenu();
-                    break;
-                case 2:
-                    new DrinkMenu(order).displayDrinkMenu();
-                    break;
-                case 3:
-                    new ChipsMenu(order).displayChipsMenu();
-                    break;
-                case 4:
-                    new CheckOutMenu(order).displayCheckoutMenu();
-                    return;
-                case 0:
-                    System.out.println("Order canceled. Returning to main menu.");
-                    return;
-                default:
-                    System.out.println("Invalid Option");
-            }
+//            switch (option) {
+//                case 1:
+//                    new SandwichMenu(order).displaySanswichMenu();
+//                    break;
+//                case 2:
+//                    new DrinkMenu(order).displayDrinkMenu();
+//                    break;
+//                case 3:
+//                    new ChipsMenu(order).displayChipsMenu();
+//                    break;
+//                case 4:
+//                    new CheckOutMenu(order).displayCheckoutMenu();
+//                    return;
+//                case 0:
+//                    System.out.println("Order canceled. Returning to main menu.");
+//                    return;
+//                default:
+//                    System.out.println("Invalid Option");
+//            }
         }
     }
 }

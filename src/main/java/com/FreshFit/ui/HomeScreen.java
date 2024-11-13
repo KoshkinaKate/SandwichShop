@@ -3,8 +3,8 @@ package com.FreshFit.ui;
 import java.util.Scanner;
 
 public class HomeScreen {
-   private Scanner scanner = new Scanner(System.in);
-   private UserInterface ui;
+    private Scanner scanner = new Scanner(System.in);
+    private UserInterface ui;
 
     public HomeScreen(UserInterface ui) {
         this.ui = ui;

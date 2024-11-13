@@ -17,4 +17,6 @@ public abstract class Topping {
         return basePrice;
     }
 
+    public abstract double getPrice(String size);
+
 }
