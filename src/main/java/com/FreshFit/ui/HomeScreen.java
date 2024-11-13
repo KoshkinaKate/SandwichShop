@@ -16,7 +16,7 @@ public class HomeScreen {
 
     public void displayMenu(){
         while(true){
-            System.out.println("Welcome to Fresh and Fit! ");
+            System.out.println("Welcome to Fresh & Fit! ");
             System.out.println("1. New Order");
             System.out.println("2. Exit");
 
@@ -25,7 +25,12 @@ public class HomeScreen {
 
             switch (option){
                 case 1:
+                    ui.startNewOrder();
                     break;
+                case 0:
+                    System.out.println("Thank you for visiting Fresh & Fit!");
+                default:
+                    System.out.println("Invalid Option. ");
             }
         }
     }
