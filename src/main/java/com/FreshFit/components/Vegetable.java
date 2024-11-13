@@ -1,9 +1,9 @@
 package com.FreshFit.components;
+// free toppings
+public class Vegetable extends Topping {
 
-public class RegularTopping extends Topping {
-
-    public RegularTopping(String name) {
-        super(name, 0.0);
+    public Vegetable(String name) {
+        super(name);
     }
 
     @Override

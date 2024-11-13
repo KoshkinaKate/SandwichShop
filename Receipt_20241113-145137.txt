@@ -1,0 +1,13 @@
+Order Summary:
+Sandwich 1:
+  Bread: wheat
+  Size: 8"
+  Toasted: No
+  Toppings:
+    - Ham
+    - Cheddar
+    - BBQ Sauce
+    - Onion
+  Price: $10.5
+
+Total Price: $10.5

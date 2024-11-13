@@ -1,14 +1,13 @@
 package com.FreshFit.items;
-
+// this class managing sandwich properties and calculates total Price for the Sandwich
 import com.FreshFit.components.Bread;
 import com.FreshFit.components.PremiumTopping;
-import com.FreshFit.components.RegularTopping;
 import com.FreshFit.components.Topping;
 import com.FreshFit.utilities.IPrice;
 
 import java.util.ArrayList;
 import java.util.List;
-// this class calculates total Price for the Sandwich
+
 public class Sandwich implements IPrice {
     private String size;
     private boolean toasted;
@@ -34,19 +33,16 @@ public class Sandwich implements IPrice {
         return bread;
     }
 
-    // Add a single topping to the sandwich
-    public void addTopping(Topping topping) {
-        toppings.add(topping);
+    public List<Topping> getToppings() {
+        return toppings;
     }
 
     // Add multiple toppings to the sandwich
+    //addAll to append all items from the provided toppings list to the existing list in the sandwich
     public void addToppings(List<Topping> toppings) {
         this.toppings.addAll(toppings);
     }
 
-    public List<Topping> getToppings() {
-        return toppings;
-    }
     private double getSandwichPriceBySize() {
         switch (size) {
             case "4\"":
@@ -56,54 +52,21 @@ public class Sandwich implements IPrice {
             case "12\"":
                 return 8.50;
             default:
-                return 0;  // Default to 4"
+                return 5.5;  // Default to 4"
         }
-    }
-    public List<Topping> getPremiumToppings() {
-        List<Topping> premiumToppings = new ArrayList<>();
-        for (Topping topping : toppings) {
-            if (topping instanceof PremiumTopping) {
-                premiumToppings.add(topping);
-            }
-        }
-        return premiumToppings;
     }
 
-    public List<Topping> getRegularToppings() {
-        List<Topping> regularToppings = new ArrayList<>();
-        for (Topping topping : toppings) {
-            if (topping instanceof RegularTopping) {
-                regularToppings.add(topping);
-            }
-        }
-        return regularToppings;
-    }
-
+    //total price for sandwich
     @Override
     public double getPrice() {
         double totalPrice = getSandwichPriceBySize();
 
         // Add premium topping prices
         for (Topping topping : toppings) {
-            if (topping instanceof PremiumTopping) {
+            if (topping instanceof PremiumTopping) { //check to see the topping is premium
                 totalPrice += ((PremiumTopping) topping).getPrice(size);
             }
         }
         return totalPrice;
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder details = new StringBuilder();
-        details.append(size).append(" sandwich on ").append(bread);
-        if (toasted) {
-            details.append(" (toasted)");
-        }
-        details.append(", Toppings: ");
-        toppings.forEach(topping -> details.append(topping).append(", "));
-        if (!toppings.isEmpty()) {
-            details.setLength(details.length() - 2); // Remove trailing comma
-        }
-        return details.toString();
     }
 }

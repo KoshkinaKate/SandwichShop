@@ -1,21 +1,23 @@
 package com.FreshFit.components;
 
 public class Meat extends PremiumTopping {
-    public Meat(String name, double basePrice) {
-        super(name, basePrice);
+
+    //constructor
+    public Meat(String name) {
+        super(name);
     }
 
     @Override
     public double getPrice(String size) {
         switch (size) {
             case "4\"":
-                return getBasePrice();
+                return 1;
             case "8\"":
-                return getBasePrice() * 2;
+                return 2;
             case "12\"":
-                return getBasePrice() * 3;
+                return 3;
             default:
-                return getBasePrice(); // Default to 4"
+                return 1;
         }
     }
 

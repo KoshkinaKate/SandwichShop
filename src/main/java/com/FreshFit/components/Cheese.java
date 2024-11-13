@@ -2,8 +2,9 @@ package com.FreshFit.components;
 
 public class Cheese extends PremiumTopping {
 
-    public Cheese(String name, double basePrice) {
-        super(name, basePrice);
+    //constructor
+    public Cheese(String name) {
+        super(name);
     }
 
     @Override
@@ -12,7 +13,7 @@ public class Cheese extends PremiumTopping {
             case "4\"":
                 return 0.75;
             case "8\"":
-                return 1.50;
+                return 1.5;
             case "12\"":
                 return 2.25;
             default:

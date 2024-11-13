@@ -1,7 +1,8 @@
 package com.FreshFit.components;
-
+//clarifies the hierarchy
 public abstract class PremiumTopping extends Topping{
-    public PremiumTopping(String name, double basePrice) {
-        super(name, basePrice);
+    //constructor
+    public PremiumTopping(String name) {
+        super(name);
     }
 }

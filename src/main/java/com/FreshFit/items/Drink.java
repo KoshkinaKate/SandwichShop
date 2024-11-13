@@ -33,9 +33,4 @@ public class Drink implements IPrice {
                 return 2.00; // Default to small size
         }
     }
-    @Override
-    public String toString() {
-        return size + " " + flavor + " drink";
-    }
-
 }

@@ -9,19 +9,22 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Bread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Bread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Cheese.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/PremiumTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/RegularTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Vegetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Sauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Sauce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/components/Topping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Chips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Chips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Drink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/items/Sandwich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/orders/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/CheckOutMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/CheckOutMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/ChipsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/ChipsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/DrinkMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/DrinkMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/OrderScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/OrderScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/SandwichMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/SandwichMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/CheckOutMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/ChipsMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/DrinkMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/HomeScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/OrderScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/SandwichMenu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/ui/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/FreshFit/utilities/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FreshFit/utilities/FileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.FreshFit.main.Main" />
