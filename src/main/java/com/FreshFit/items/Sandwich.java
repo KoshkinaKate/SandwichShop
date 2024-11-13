@@ -1,6 +1,7 @@
 package com.FreshFit.items;
 
 import com.FreshFit.components.Bread;
+import com.FreshFit.components.PremiumTopping;
 import com.FreshFit.components.Topping;
 import com.FreshFit.utilities.IPrice;
 
@@ -52,6 +53,14 @@ public class Sandwich implements IPrice {
 
     @Override
     public double getPrice() {
-        return 0;
+        double totalPrice = getSandwichPriceBySize();
+        for (Topping topping : toppings) {
+            if (topping instanceof PremiumTopping){
+                PremiumTopping premiumTopping = (PremiumTopping) topping;
+                totalPrice += premiumTopping.getPrice(size);
+            }
+        }
+        return totalPrice;
     }
+
 }
