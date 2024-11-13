@@ -1,5 +1,5 @@
 package com.FreshFit.ui;
-
+// interactive menu for a customer
 import com.FreshFit.orders.Order;
 import com.FreshFit.items.Sandwich;
 import com.FreshFit.items.Drink;
@@ -17,21 +17,21 @@ import java.util.List;
 import java.util.Scanner;
 
 public class UserInterface {
-    private Order currentOrder;
-    private Scanner scanner;
+    private Order currentOrder; //stores a current order
+    private Scanner scanner = new Scanner(System.in);
 
+    //constructor
     public UserInterface() {
-        this.currentOrder = new Order();
-        this.scanner = new Scanner(System.in);
+        this.currentOrder = new Order(); //assign to an Object
     }
 
     public void start() {
         displayHomeScreen();
     }
 
-    // Display Home Screen
+    // Display HomeScreen
     private void displayHomeScreen() {
-        System.out.println("Welcome to DELI-cious Sandwich Shop!");
+        System.out.println("Welcome to Fresh & Fit Sandwich Shop!");
         System.out.println("1. Start a new order");
         System.out.println("2. Exit");
 
@@ -66,12 +66,18 @@ public class UserInterface {
             System.out.println("4. Checkout");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1 -> addSandwich();
-                case 2 -> currentOrder.addDrink(selectDrink());
-                case 3 -> currentOrder.addChips(selectChips());
+                case 2 -> {
+                    currentOrder.addDrink(selectDrink());
+                    System.out.println("Drink added to your order.");
+                }
+                case 3 -> {
+                    currentOrder.addChips(selectChips());
+                    System.out.println("Chips added to your order.");
+                }
                 case 4 -> {
                     displayCheckOutMenu();
                     continueOrdering = false; // Exit loop after checkout
@@ -91,8 +97,8 @@ public class UserInterface {
         // Add meats, cheeses, sauces, and vegetables
         sandwich.addToppings(selectMeatOptions());
         sandwich.addToppings(selectCheeseOptions());
-        sandwich.addToppings(selectSauceOptions());       // Add sauces
-        sandwich.addToppings(selectVegetableOptions());   // Add vegetables
+        sandwich.addToppings(selectSauceOptions());
+        sandwich.addToppings(selectVegetableOptions());
 
         currentOrder.addSandwich(sandwich);
         System.out.println("Sandwich added to your order.");
@@ -106,14 +112,14 @@ public class UserInterface {
         System.out.println("3. 12\"");
 
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         return switch (choice) {
             case 1 -> "4\"";
             case 2 -> "8\"";
             case 3 -> "12\"";
             default -> {
-                System.out.println("Invalid choice. Defaulting to 4\".");
+                System.out.println("Invalid choice.");
                 yield "4\"";
             }
         };
@@ -135,7 +141,7 @@ public class UserInterface {
             case 3 -> "rye";
             case 4 -> "wrap";
             default -> {
-                System.out.println("Invalid choice. Defaulting to white.");
+                System.out.println("Invalid choice.");
                 yield "white";
             }
         };
