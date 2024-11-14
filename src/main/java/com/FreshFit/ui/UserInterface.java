@@ -368,7 +368,6 @@ public class UserInterface {
         if (confirmation.equals("yes")) {
             // Save the receipt to a file upon confirmation
             FileManager.generateReceipt(orderDetails);
-            System.out.println("Order confirmed! Your receipt has been generated.");
             // Go back to the home screen after confirming
             displayHomeScreen();
         } else if (confirmation.equals("no")) {

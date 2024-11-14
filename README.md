@@ -1,9 +1,12 @@
-# Sandwich Shop Ordering Application
+# Fresh & Fit Sandwich Shop Ordering Application
 
 ## Description of the Project
 
-This Java console application is designed to streamline the ordering process for a customizable sandwich shop. The application allows users to build a sandwich order by selecting various ingredients, including bread types, toppings, and sauces, and also add drinks and chips. This tool is intended for both customers of a virtual deli and backend administrators who want a seamless way to handle custom orders. The application's purpose is to simplify order management, ensure accurate pricing, and provide a receipt of the final order.
-![Class Diagram](path/to/your/class_diagram.png)
+This Java console application is designed to streamline the ordering process for a customizable Fresh & Fit sandwich shop. The application allows users to build a sandwich order by selecting various ingredients, including bread types, toppings, and sauces, and also add drinks and chips. This tool is intended for both customers of a virtual deli and backend administrators who want a seamless way to handle custom orders. The application's purpose is to simplify order management, ensure accurate pricing, and provide a receipt of the final order.
+
+**Class Diagram**
+
+![classDiagram.png](imgs/classDiagram.png)
 
 ## User Stories
 
@@ -35,11 +38,35 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 - Java: Version 17
 - IntelliJ IDEA: For development and execution.
+- Draw.io: For creating Class Diagram
 
-## Demo
+## Demo of the project
 
-**Pictures**
-![Application Screenshot](path/to/your/screenshot.png)
+**Ordering a sandwich**
+
+![first-sandwich.png](imgs/first-sandwich.png)
+
+![second-sandwich.png](imgs/second-sandwich.png)
+
+**Ordering a drink**
+
+![Drink.png](imgs/Drink.png)
+
+**Ordering chips**
+
+![Chips.png](imgs/Chips.png)
+
+**Order Summary (error handling)**
+
+![OrderSum+ error.png](imgs/OrderSum%2B%20error.png)
+
+**Order Summary with conformation**
+
+![OrderSummary+ conformation.png](imgs/OrderSummary%2B%20conformation.png)
+
+**Receipt**
+
+![Receipt.png](imgs/Receipt.png)
 
 ## Future Work
 
@@ -47,14 +74,15 @@ Outline potential future enhancements or functionalities you might consider addi
 
 - GUI Implementation: Expand the console-based application into a graphical user interface.
 - Discounts and Promotions: Include functionality for applying discounts or promotional offers.
-- 
 
 ## Resources
 
 List resources such as tutorials, articles, or documentation that helped you during the project.
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
+- [Draw.io Tutorial](https://drawio-app.com/tutorials/)
+- [Switch Statement Improvement](https://stackoverflow.com/questions/5086322/java-switch-statement-multiple-cases)
+- [Java Interface](https://www.youtube.com/watch?v=GhslBwrRsnw&t=35s)
+
 
 
 ## Thanks
@@ -62,4 +90,3 @@ List resources such as tutorials, articles, or documentation that helped you dur
 Express gratitude towards those who provided help, guidance, or resources:
 
 - Thank you to Raymond for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.

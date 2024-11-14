@@ -4,7 +4,7 @@ public class Meat extends PremiumTopping {
 
     //constructor
     public Meat(String name) {
-        super(name);
+        super(name); //call a constructor of a parent class
     }
 
     @Override
