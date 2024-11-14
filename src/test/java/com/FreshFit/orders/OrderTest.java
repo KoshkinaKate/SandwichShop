@@ -37,5 +37,4 @@ class OrderTest {
         //assert
         assertEquals(expectedTotalPrice,actualTotalPrice);
     }
-
 }

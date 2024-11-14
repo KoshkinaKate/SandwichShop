@@ -68,6 +68,10 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ![Receipt.png](imgs/Receipt.png)
 
+**Unit Testing**
+
+![UnitTesting.png](imgs/UnitTesting.png)
+
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
