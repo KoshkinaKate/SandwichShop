@@ -38,6 +38,7 @@
     "Application.Main.executor": "Run",
     "JUnit.MeatTest.executor": "Run",
     "JUnit.OrderTest.executor": "Run",
+    "JUnit.SandwichTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -53,6 +54,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.FreshFit.items" />
       <recent name="com.FreshFit.components" />
       <recent name="com.FreshFit.orders" />
     </key>
