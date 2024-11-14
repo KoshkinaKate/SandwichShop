@@ -1,0 +1,36 @@
+Order Summary:
+Sandwich 1:
+  Bread: wrap
+  Size: 12"
+  Toasted: Yes
+  Toppings:
+    - Roast Beef
+    - Steak
+    - Swiss
+    - Mayo
+    - Pickles
+    - Onion
+    - Tomato
+  Price: $16.75
+
+Sandwich 2:
+  Bread: white
+  Size: 4"
+  Toasted: No
+  Toppings:
+    - Ham
+    - Mozzarella
+    - Hot Sauce
+    - Tomato
+  Price: $7.25
+
+Drink 1:
+  Size: Medium
+  Flavor: Iced Tea
+  Price: $2.5
+
+Chips 1:
+  Type: Sour Cream & Onion
+  Price: $1.5
+
+Total Price: $28.0
