@@ -1,0 +1,24 @@
+Order Summary:
+Sandwich 1:
+  Bread: sourdough
+  Size: 12"
+  Toasted: Yes
+  Toppings:
+    - Steak
+    - Roast Beef
+    - Mozzarella
+    - Hot Sauce
+    - Tomato
+    - Spinach
+  Price: $16.75
+
+Drink 1:
+  Size: Large
+  Flavor: Iced Tea
+  Price: $3.0
+
+Chips 1:
+  Type: Sour Cream & Onion
+  Price: $1.5
+
+Total Price: $21.25

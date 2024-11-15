@@ -42,7 +42,7 @@ public class Order {
         return total;
     }
 
-    // Generates a summary of the entire order
+    // Generates a summary of the entire order, works like toString
     public String generateOrderSummary() {
         StringBuilder summary = new StringBuilder();
         summary.append("Order Summary:\n");
@@ -85,4 +85,5 @@ public class Order {
         String orderDetails = generateOrderSummary();
         FileManager.generateReceipt(orderDetails);
     };
+
 }
